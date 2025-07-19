@@ -27,7 +27,7 @@ spec:
         effect: "NoSchedule"
       containers:
         - name: flask-container-v1-0
-          image: docker.io/sayantan2k21/flask-app:v1.0-1
+          image: docker.io/sayantan2k21/flask-multibranch-gitops-example:latest
           ports:
             - containerPort: 5000
 ---
